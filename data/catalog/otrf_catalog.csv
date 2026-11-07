@@ -1,0 +1,110 @@
+dataset_id,title,technique,sub_technique,tactics,platform,n_files
+SDAWS-200914011940,AWS Cloud Bank Breach S3,T1078,004,TA0001;TA0003;TA0004;TA0005,AWS,1
+SDAWS-200914011940,AWS Cloud Bank Breach S3,T1530,,TA0009,AWS,1
+SDAWS-2202181000,AWS S3 Honey Bucket Logs,T1580,,TA0007,AWS,1
+SDLIN-201110074812,Arp Cache Discovery,T1018,,TA0007,Linux,1
+SDLIN-201110081941,DD Binary Padding Hash Change,T1027,001,TA0005,Linux,1
+SDWIN-190301125905,Empire Powerview Add-DomainObjectAcl,T1222,001,TA0005,Windows,2
+SDWIN-190301174830,Empire DCSync,T1003,006,TA0006,Windows,2
+SDWIN-190319020147,Empire Net Local Administrators Group,T1069,001,TA0007,Windows,1
+SDWIN-190319020729,Empire Net Local Users,T1087,001,TA0007,Windows,1
+SDWIN-190319021158,Empire Net Domain Users,T1087,002,TA0007,Windows,2
+SDWIN-190319023812,Empire Userland Registry Run Keys,T1547,001,TA0003,Windows,1
+SDWIN-190319024742,Empire Userland Scheduled Tasks,T1053,005,TA0003,Windows,1
+SDWIN-190319131123,Empire Over-Pass-The-Hash,T1550,002,TA0005;TA0008,Windows,1
+SDWIN-190319145126,Rubeus Userland ASKTGT PTT,T1003,003,TA0006,Windows,2
+SDWIN-190403133337,IKEEXT Remote Service DLL Hijack,T1574,001,TA0003;TA0004;TA0005,Windows,2
+SDWIN-190518182022,Empire VBS Execution,T1059,005,TA0002,Windows,1
+SDWIN-190518184306,Empire Elevated WMI Eventing,T1546,003,TA0003;TA0004,Windows,1
+SDWIN-190518200432,Empire PSInject,T1055,003,TA0004;TA0005,Windows,1
+SDWIN-190518201207,Empire Shell Net Domain Admins,T1069,002,TA0007,Windows,2
+SDWIN-190518201922,Empire WDigest Downgrade,T1112,,TA0005,Windows,1
+SDWIN-190518202151,Empire Mimikatz LogonPasswords,T1003,001,TA0006,Windows,1
+SDWIN-190518203650,Empire Enable RDP,T1112,,TA0005,Windows,1
+SDWIN-190518210125,Empire Invoke SMBExec,T1021,002,TA0008,Windows,2
+SDWIN-190518210652,Empire Invoke PsExec,T1021,,TA0002;TA0008,Windows,2
+SDWIN-190518211052,Empire Invoke DCOM ShellWindows,T1021,003,TA0002;TA0008,Windows,2
+SDWIN-190518211456,Empire Invoke PSRemoting,T1021,006,TA0002;TA0008,Windows,2
+SDWIN-190518213907,Empire Invoke Execute MSBuild,T1047,,TA0002;TA0008,Windows,2
+SDWIN-190518221344,Empire Invoke DLLInjection,T1055,001,TA0004;TA0005,Windows,1
+SDWIN-190518224039,Empire Find Local Admin Access,T1069,001,TA0007,Windows,1
+SDWIN-190518230752,Empire Mimikatz Extract Kerberos Keys,T1003,004,TA0006,Windows,1
+SDWIN-190518235535,Empire Mimikatz Backup Keys,T1003,,TA0006,Windows,2
+SDWIN-190519005224,Empire Remote Get Session,T1049,,TA0007,Windows,2
+SDWIN-190625103712,Empire Mimikatz SAM Extract Hashes,T1003,002,TA0006,Windows,1
+SDWIN-190625133822,Empire Reg Dump SAM Hive,T1003,002,TA0006,Windows,1
+SDWIN-191027055035,RDP TaskManager LSASS Dump,T1003,001,TA0006,Windows,1
+SDWIN-191027223020,Covenant ShellCmd InstallUtil,T1218,004,TA0005;TA0002,Windows,1
+SDWIN-191225045202,Empire Invoke InternalMonologue,T1112,,TA0005,Windows,1
+SDWIN-200609225055,MSF Record Mic,T1123,,TA0009,Windows,1
+SDWIN-200721232741,Empire Regsvr32 Execution,T1218,010,TA0005,Windows,1
+SDWIN-200722001847,Empire Elevated Registry Run Keys,T1547,001,TA0003,Windows,1
+SDWIN-200724174200,Covenant Remote WMI Eventing ActiveScriptEventConsumers,T1047,,TA0002;TA0008,Windows,2
+SDWIN-200805020926,Covenant DCSync,T1003,006,TA0006,Windows,2
+SDWIN-200805034820,Covenant SC.exe Utility Query,T1021,002,TA0008,Windows,2
+SDWIN-200806012009,Covenant SharpSC Query,T1021,002,TA0008,Windows,2
+SDWIN-200806015757,Covenant Remote File Copy,T1021,002,TA0008,Windows,2
+SDWIN-200806022635,Covenant SharpSC Create,T1021,002,TA0008,Windows,2
+SDWIN-200806030120,Covenant SharpSC Start,T1021,002,TA0008,Windows,2
+SDWIN-200806031938,Covenant SharpSC Stop Service,T1021,002,TA0008,Windows,2
+SDWIN-200806035621,Covenant SharpWMI Exec,T1047,,TA0002;TA0008,Windows,2
+SDWIN-200806115603,Covenant PowerShell Remoting Command,T1021,006,TA0002;TA0008,Windows,2
+SDWIN-200806130039,Covenant GetDomainGroup Domain Admins,T1069,002,TA0007,Windows,2
+SDWIN-200807103913,Empire Mimikatz Lsadump LSA Patch,T1003,001,TA0006,Windows,1
+SDWIN-200904032946,Invoke BypassUAC FodHelper,T1548,002,TA0004,Windows,1
+SDWIN-200914080546,Empire Remote WMIC Add User,T1047,,TA0002;TA0008,Windows,1
+SDWIN-200916232559,Mimikatz Netlogon Unauthenticated NetrServerAuthenticate2,T1210,,TA0008,Windows,2
+SDWIN-200917174542,DCOM ExecuteExcel4macro,T1021,003,TA0008,Windows,2
+SDWIN-200918145959,DCOM RegisterXLL,T1021,003,TA0008,Windows,2
+SDWIN-200921001437,Empire Invoke WMI,T1047,,TA0002;TA0008,Windows,2
+SDWIN-200921175806,Empire Elevated Scheduled Tasks,T1053,005,TA0003,Windows,1
+SDWIN-200921230246,Rubeus Elevated ASKTGT CreateNetOnly,T1003,003,TA0006,Windows,2
+SDWIN-200922042230,Empire Powerdump Extract Hashes,T1003,002,TA0006,Windows,1
+SDWIN-201009173318,Covenant Remote WMI Wbemcomn DLL Hijacking,T1047,,TA0002;TA0008,Windows,2
+SDWIN-201009183000,Covenant Remote DCOM Iertutil DLL Hijacking,T1021,003,TA0008,Windows,2
+SDWIN-201012183248,Covenant Wuauclt CreateRemoteThread Execution,T1218,,TA0005,Windows,1
+SDWIN-201017061100,WMIC Remote XSL Jscript Execution,T1220,,TA0005,Windows,1
+SDWIN-201018195009,Lsass Memory Dump via Comsvcs.dll,T1003,001,TA0006,Windows,1
+SDWIN-201018225619,Lsass Memory Dump via Syscalls,T1003,001,TA0006,Windows,1
+SDWIN-201019002900,SAM Copy via Esentutl VSS,T1003,002,TA0006,Windows,1
+SDWIN-201019033054,Psexec Reg LSA Secrets Dump,T1003,004,TA0006,Windows,1
+SDWIN-201019224718,Logon Scripts via UserInitMprLogonScript,T1037,001,TA0003,Windows,1
+SDWIN-201019232515,Mavinject Process DLL Injection,T1055,,TA0004;TA0005,Windows,1
+SDWIN-201020013208,UI Prompt For Credentials Function,T1056,002,TA0006;TA0009,Windows,1
+SDWIN-201021001911,Netsh Open FW Proxy Ports,T1562,004,TA0005,Windows,1
+SDWIN-201021204544,Service Modification Fax,T1543,003,TA0003;TA0004,Windows,1
+SDWIN-201021232814,Internet Explorer Version Discovery,T1518,,TA0007,Windows,1
+SDWIN-201022002145,HH Execution of Local Compiled HTML Payload,T1218,001,TA0005,Windows,1
+SDWIN-201022013121,Control Panel Execution,T1218,002,TA0005,Windows,1
+SDWIN-201022015432,CMSTP Proxy Execution,T1218,003,TA0005,Windows,1
+SDWIN-201022022144,Mshta Javascript GetObject Sct,T1218,005,TA0005,Windows,1
+SDWIN-201022025808,Mshta VBScript Execute PowerShell,T1218,005,TA0005,Windows,1
+SDWIN-201022035214,Mshta HTML Application (HTA) Execution,T1218,005,TA0005,Windows,1
+SDWIN-201022042947,PurpleSharp Active Directory Playbook I,T1110,003,TA0006,Windows,2
+SDWIN-201022042947,PurpleSharp Active Directory Playbook I,T1558,003,TA0006,Windows,2
+SDWIN-201022042947,PurpleSharp Active Directory Playbook I,T1135,,TA0007,Windows,2
+SDWIN-201022042947,PurpleSharp Active Directory Playbook I,T1021,006,TA0008,Windows,2
+SDWIN-201023020513,Register-CimProvider Execute Dll,T1218,,TA0005,Windows,1
+SDWIN-201023023651,Bitsadmin Download Malicious File,T1197,,TA0003;TA0005,Windows,1
+SDWIN-201023031210,PurpleSharp PE Injection CreateRemoteThread,T1055,002,TA0004;TA0005,Windows,1
+SDWIN-201026235835,Process Herpaderping Mimikatz,T1055,,TA0004;TA0005,Windows,1
+SDWIN-201028191914,Windows Vault Web Credentials,T1055,,TA0004;TA0005,Windows,1
+SDWIN-201029001615,Python HTTP Server,T1059,,TA0002,Windows,1
+SDWIN-201029202324,SharpView PCRE.NET,T1059,,TA0002,Windows,1
+SDWIN-201102041306,PowerShell HTTP Listener,T1059,001,TA0002,Windows,1
+SDWIN-201102163918,Seatbelt Group User Discovery,T1012,,TA0007,Windows,1
+SDWIN-201219070027,Remote Scheduled Task Creation,T1053,005,TA0002;TA0003;TA0004;TA0008,Windows,2
+SDWIN-201219075059,Remote Scheduled Task Modification,T1053,005,TA0002;TA0003;TA0004;TA0008,Windows,2
+SDWIN-210314014019,Exchange ProxyLogon SSRF RCE Vuln POC,T1505,003,TA0003;TA0002,Windows,1
+SDWIN-210427020247,Export ADFS Database Configuration Remotely,T0000,,TA0008,Windows,2
+SDWIN-210611210814,APT Simulator Cobalt Strike,T1134,002,TA0004;TA0005,Windows,1
+SDWIN-210611210814,APT Simulator Cobalt Strike,T1134,001,TA0004;TA0005,Windows,1
+SDWIN-220630130349,Disabling Windows Event Logging via Audit Policy Modification,T1562,002,TA0005,Windows,1
+SDWIN-220703123711,Disabling Process Command Line Logging via Registry Modification,T1562,002,TA0005,Windows,2
+SDWIN-220705170038,Modifying Security Event Log File Path via Modification of Log Configuration,T1562,002,TA0005,Windows,1
+SDWIN-220708104215,Stopping Event Log Service via Modification of Start Up Type,T1562,002,TA0005,Windows,3
+SDWIN-220708104300,Stopping Event Log Service after Stopping Depending Services,T1562,002,TA0005,Windows,4
+SDWIN-220803205800,Stopping Event Logging via Creation of MiniNt Registry Key,T1562,002,TA0005,Windows,6
+SDWIN-230718150800,Dumping NTDS.dit from Volume Shadow Copy,T1003,003,TA0006,Windows,1
+SDWIN-230718151900,Dumping NTDS.dit using NTDSutil,T1003,003,TA0006,Windows,1
+SDWIN-230720004300,Dumping NTDS.dit using NinjaCopy,T1003,003,TA0006,Windows,2

@@ -1,0 +1,23 @@
+# Raw and processed data (large, reproducible from the scripts)
+data/raw/
+data/processed/
+
+# Archives and model artifacts
+*.zip
+*.pt
+*.ckpt
+*.safetensors
+*.npy
+*.npz
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
